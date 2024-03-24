@@ -1,0 +1,31 @@
+.container {
+    /* width: 500px; */
+    /* height: 500px; */
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the container height to 100% of the viewport height */
+}
+
+.accordian-list {
+    text-align: center;
+}
+
+.accordian {
+    width: 500px;
+    background: grey;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.accordian-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordian-plus-icon {
+    text-decoration: none;
+    color: white;
+}
